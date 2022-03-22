@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.container{
+margin: 0 5%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +13,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+@media only screen and (min-width:1400px) {
+  .container{
+    width: 1400px;
+margin: 0 auto;
+}
 }
 
 .App-header {
